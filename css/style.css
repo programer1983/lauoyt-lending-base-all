@@ -1,1 +1,28 @@
-@import "./reset.css"
+@import "./reset.css";
+@import "./header.css";
+
+:root {
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --fontSize: 16px;
+    --fontWeight: 400;
+    --lineHeight: 1.2;
+}
+
+.container {
+    max-width: 1430px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--blackColor);
+    font-size: var(--fontSize);
+    font-weight: var(--fontWeight);
+    line-height: var(--lineHeight);
+}
+
+a {
+    color: #000;
+}
