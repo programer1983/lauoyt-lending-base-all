@@ -1,5 +1,7 @@
 @import "./reset.css";
 @import "./header.css";
+@import "./top.css";
+@import "./travels-technologies.css";
 
 :root {
     --whiteColor: #fff;
