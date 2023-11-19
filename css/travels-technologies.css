@@ -6,4 +6,67 @@
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
+
+.travels-technologies__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+    margin-bottom: 50px;
+}
+
+.travels-technologies__button {
+    text-transform: uppercase;
+    background-color: gray;
+    padding: 8px 15px;
+    color: var(--whiteColor);
+    border-radius: 20px;
+    transition: all .5s ease;
+    &:hover {
+        background-color: rgb(50, 47, 47);
+    }
+}
+
+
+.travels-technologies__items {}
+
+
+.travels-technologies__items-col{
+    display: none;
+    align-items: center;
+    margin-bottom: 50px;
+    column-gap: 20px;
+}
+
+.travels-technologies--active {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.travels-technologies__item  {
+    margin-bottom: 40px;
+}
+
+.travels-technologies__item-img {
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.travels-technologies__item-title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.travels-technologies__item-text {
+    width: 400px;
+  }
+
