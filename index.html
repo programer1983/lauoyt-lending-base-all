@@ -1,193 +1,407 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <title>Project</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <main class="main">
-            <section class="top">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/top/01.jpg" alt="Inmage">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/top/02.jpg" alt="Image">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/top/03.jpg" alt="Image">
-                    </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
+      <main class="main">
+        <section class="top">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/top/01.jpg" alt="Inmage" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/top/02.jpg" alt="Image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/top/03.jpg" alt="Image" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="top__info">
+            <div class="container">
+              <div class="top__content">
+                <h1 class="top__title">Travel and Development</h1>
+                <p class="top__text">
+                  Travel and create web products. Do this in any place convenient for you. Layout
+                  and Javascript plus WordPress will allow you to live in pleasure.
+                </p>
+                <div class="top__buttons">
+                  <button class="top__button">Information</button>
+                  <button class="top__button">Travels</button>
                 </div>
-                    <div class="top__info">
-                        <div class="container">
-                            <div class="top__content">
-                                <h1 class="top__title">Travel and Development</h1>
-                                <p class="top__text">Travel and create web products.
-                                    Do this in any place convenient for you.
-                                    Layout and Javascript plus WordPress will allow you to live in pleasure.</p>
-                                <div class="top__buttons">
-                                <button class="top__button">Information</button>
-                                <button class="top__button">Travels</button>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <header class="header">
+          <div class="container">
+            <div class="header__inner">
+              <a class="logo" href="#">LOGO</a>
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Projects</a>
+                    <ul class="nav__item-list">
+                      <li class="nav__item-item"><a class="nav__item-link" href="#">React</a></li>
+                      <li class="nav__item-item"><a class="nav__item-link" href="#">NextJS</a></li>
+                      <li class="nav__item-item">
+                        <a class="nav__item-link" href="#">JavaScript</a>
+                        <ul class="nav__item-list nav__item-list--sub">
+                          <li class="nav__item-item">
+                            <a class="nav__item-link" href="#">JQuery</a>
+                          </li>
+                          <li class="nav__item-item">
+                            <a class="nav__item-link" href="#">JS Native</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Info</a>
+                    <ul class="nav__item-list">
+                      <li class="nav__item-item">
+                        <a class="nav__item-link" href="#">Programming</a>
+                      </li>
+                      <li class="nav__item-item"><a class="nav__item-link" href="#">Design</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <section class="travels-technologies">
+          <div class="container">
+            <h2 class="travels-technologies__title">Technology and Travel Options</h2>
+            <div class="travels-technologies__buttons">
+              <button
+                class="travels-technologies__button travels-technologies__button--active"
+                data-button="content-1"
+              >
+                Collection
+              </button>
+              <button class="travels-technologies__button" data-button="content-2">
+                For the soul
+              </button>
+              <button class="travels-technologies__button" data-button="content-3">
+                Best places
+              </button>
+              <button class="travels-technologies__button" data-button="content-4">Leisure</button>
+            </div>
+            <div class="travels-technologies__items">
+              <div
+                class="travels-technologies__items-col travels-technologies--active"
+                id="content-1"
+              >
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/01.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
                 </div>
-            </section>
-            <header class="header">
-                <div class="container">
-                    <div class="header__inner">
-                        <a class="logo" href="#">LOGO</a>
-                        <nav class="nav">
-                            <ul class="nav__list">
-                                <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
-                                <li class="nav__item"><a class="nav__link" href="#">About</a></li>
-                                <li class="nav__item"><a class="nav__link" href="#">Projects</a>
-                                    <ul class="nav__item-list">
-                                        <li class="nav__item-item"><a class="nav__item-link" href="#">React</a></li>
-                                        <li class="nav__item-item"><a class="nav__item-link" href="#">NextJS</a></li>
-                                        <li class="nav__item-item"><a class="nav__item-link" href="#">JavaScript</a>
-                                            <ul class="nav__item-list nav__item-list--sub">
-                                                <li class="nav__item-item"><a class="nav__item-link" href="#">JQuery</a></li>
-                                                <li class="nav__item-item"><a class="nav__item-link" href="#">JS Native</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
-                                <li class="nav__item"><a class="nav__link" href="#">Info</a>
-                                    <ul class="nav__item-list">
-                                        <li class="nav__item-item"><a class="nav__item-link" href="#">Programming</a></li>
-                                        <li class="nav__item-item"><a class="nav__item-link" href="#">Design</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/02.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
                 </div>
-            </header>
-            <section class="travels-technologies">
-                <div class="container">
-                    <h2 class="travels-technologies__title">Technology and Travel Options</h2>
-                    <div class="travels-technologies__buttons">
-                        <button class="travels-technologies__button travels-technologies__button--active" data-button="content-1">Collection</button>
-                        <button class="travels-technologies__button" data-button="content-2">For the soul</button>
-                        <button class="travels-technologies__button" data-button="content-3">Best places</button>
-                        <button class="travels-technologies__button" data-button="content-4">Leisure</button>
-                    </div>
-                    <div class="travels-technologies__items">
-                        <div class="travels-technologies__items-col travels-technologies--active" id="content-1">
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/01.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/02.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/03.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/04.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/05.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/06.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/07.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/08.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/09.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                        </div>
-                        <div class="travels-technologies__items-col" id="content-2">
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/01.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/02.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/03.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">For the soul</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                        </div>
-                        <div class="travels-technologies__items-col" id="content-3">
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/04.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">Best places</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/05.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">Best places</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/06.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">Best places</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                        </div>
-                        <div class="travels-technologies__items-col" id="content-4">
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/07.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">Leisure</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/08.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">Leisure</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                            <div class="travels-technologies__item">
-                                <img class="travels-technologies__item-img" src="img/travels-technologies/09.jpg" alt="Image">
-                                <h2 class="travels-technologies__item-title">Leisure</h2>
-                                <p class="travels-technologies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti aliquid, labore animi voluptatibus, amet obcaecati!</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/03.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
                 </div>
-            </section>
-        </main>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/04.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/05.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/06.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/07.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/08.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/09.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+              </div>
+              <div class="travels-technologies__items-col" id="content-2">
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/01.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/02.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/03.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">For the soul</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+              </div>
+              <div class="travels-technologies__items-col" id="content-3">
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/04.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">Best places</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/05.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">Best places</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/06.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">Best places</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+              </div>
+              <div class="travels-technologies__items-col" id="content-4">
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/07.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">Leisure</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/08.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">Leisure</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+                <div class="travels-technologies__item">
+                  <img
+                    class="travels-technologies__item-img"
+                    src="img/travels-technologies/09.jpg"
+                    alt="Image"
+                  />
+                  <h2 class="travels-technologies__item-title">Leisure</h2>
+                  <p class="travels-technologies__item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo ratione quis
+                    eos ut et hic incidunt minima illum laborum repellat nostrum vitae corrupti
+                    aliquid, labore animi voluptatibus, amet obcaecati!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news">
+          <div class="container">
+            <div class="news__item active">
+              <div class="news__trigger">
+                <span class="news__title">Technologies News</span>
+                <img class="news__icon" src="img/news/arrow-down.svg" alt="Icon" />
+              </div>
+              <div class="news__content">
+                <div class="news__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum maxime minima,
+                  eum non tempore ipsum? Aut nulla ea suscipit.
+                </div>
+              </div>
+            </div>
+            <div class="news__item">
+              <div class="news__trigger">
+                <span class="news__title">Travel News</span>
+                <img class="news__icon" src="img/news/arrow-down.svg" alt="Icon" />
+              </div>
+              <div class="news__content">
+                <div class="news__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum maxime minima,
+                  eum non tempore ipsum? Aut nulla ea suscipit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum maxime minima,
+                  eum non tempore ipsum? Aut nulla ea suscipit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum maxime minima,
+                  eum non tempore ipsum? Aut nulla ea suscipit.
+                </div>
+              </div>
+            </div>
+            <div class="news__item">
+              <div class="news__trigger">
+                <span class="news__title">Works News</span>
+                <img class="news__icon" src="img/news/arrow-down.svg" alt="Icon" />
+              </div>
+              <div class="news__content">
+                <div class="news__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum maxime minima,
+                  eum non tempore ipsum? Aut nulla ea suscipit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum maxime minima,
+                  eum non tempore ipsum? Aut nulla ea suscipit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/tabs.js"></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>

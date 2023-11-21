@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./top.css";
 @import "./travels-technologies.css";
+@import "./news.css";
 
 :root {
     --whiteColor: #fff;

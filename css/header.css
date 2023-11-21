@@ -37,10 +37,12 @@
 
 .nav .nav__list .nav__item:hover > .nav__item-list {
     display: block;
+    background-color: rgba(7, 7, 77, 0.7);
 }
 
 .nav .nav__list .nav__item .nav__item-list .nav__item-item:hover > .nav__item-list {
     display: block;
+    background-color: rgba(7, 7, 77, 0.7);
 } 
 
 .nav__link, 
@@ -49,7 +51,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 18px;
-    transition: all 1s ease;
+    transition: all 1s ease;;
 }
 
 .nav__link:hover {
