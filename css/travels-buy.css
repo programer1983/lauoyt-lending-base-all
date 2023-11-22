@@ -1,0 +1,74 @@
+.travels-buy {
+    padding-bottom: 100px;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.travels-buy__bg {
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    font-size: 400px;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 400px;
+    opacity: 0.1;
+    position: absolute;
+    z-index: -1;
+    animation: line-text 10s linear 1s infinite;
+}
+
+@keyframes line-text {
+    from {
+        transform: translateX(115%);
+        transform-origin: left center;
+    }
+    to {
+        transform: translateX(-115%);
+        transform-origin: right center;
+    }
+}
+
+.travels-buy__img {
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+
+}
+
+.travels-buy__btn {
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    display: flex;
+    padding: 1px;
+    text-transform: uppercase;
+    max-width: 377px;
+    width: 100%;
+    margin: 50px auto 15px;
+}
+
+.travels-buy__text {
+    font-size: 13px;
+    padding: 15px 60px;
+    color: var(--whiteColor);
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: rgba(45, 15, 73, 0.623);
+    }
+}
+
+.travels-buy__price {
+    padding: 15px 60px;
+    background-color: rgb(175, 167, 167);
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: rgb(96, 92, 92);
+        color: var(--whiteColor);
+    }
+}
+
+.travels-buy__desc {
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.817);
+}

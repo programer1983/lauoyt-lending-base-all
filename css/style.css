@@ -3,6 +3,7 @@
 @import "./top.css";
 @import "./travels-technologies.css";
 @import "./news.css";
+@import "./travels-buy.css";
 
 :root {
     --whiteColor: #fff;
