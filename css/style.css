@@ -5,6 +5,7 @@
 @import './news.css';
 @import './travels-buy.css';
 @import './slider.css';
+@import './contacts.css';
 
 :root {
   --whiteColor: #fff;

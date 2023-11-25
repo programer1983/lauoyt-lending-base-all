@@ -9,11 +9,12 @@
 }
 
 .news__item {
-    border: 4px solid rgb(51, 134, 51);
     border-radius: 6px;
     cursor: pointer;
     margin-bottom: 16px;
     width: 800px;
+    -webkit-box-shadow: -1px 0px 12px -2px rgba(0,0,0,0.72); 
+    box-shadow: -1px 0px 12px -2px rgba(0,0,0,0.72);
     &.active {
         .news__icon {
             rotate: 180deg;

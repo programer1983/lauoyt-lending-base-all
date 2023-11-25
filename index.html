@@ -424,6 +424,27 @@
             <button class="slide-button material-symbols-rounded" id="next-slide">chevron_right</button>
           </div>
         </div>
+        <section class="contacts">
+          <div class="container">
+            <div class="contacts__content">
+              <h2 class="contacts__title">Write to us</h2>
+              <button class="contacts__button" id="contacts-modal-open">Contacts</button>
+            </div>
+          </div>
+        </section>
+        <div class="contacts__modal" id="contacts-modal">
+          <div class="contacts__modal-box">
+            <button class="contacts__modal-close" id="contacts-modal-close">
+              <img src="img/contacts/icons-close.svg" alt="Icon">
+            </button>
+            <form class="contacts__modal-form">
+              <input class="contacts__modal-input" placeholder="Enter name" type="text">
+              <input class="contacts__modal-input" placeholder="Enter email" type="text">
+              <textarea class="contacts__modal-area" placeholder="Enter text" type="text"></textarea>
+              <button class="contacts__modal-buton" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
       </main>
     </div>
     <script src="./js/swiper-bundle.min.js"></script>
@@ -431,6 +452,7 @@
     <script src="./js/tabs.js"></script>
     <script src="./js/accordion.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/modalwindow.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
