@@ -6,6 +6,7 @@
 @import './travels-buy.css';
 @import './slider.css';
 @import './contacts.css';
+@import './carousel.css';
 
 :root {
   --whiteColor: #fff;
