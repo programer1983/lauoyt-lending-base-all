@@ -1,5 +1,15 @@
+.corousel {
+    padding: 100px 0px;
+}
+
+.corousel__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
 .carousel-wrapper {
-    padding: 200px 0px;
     position: relative;
     max-width: 800px;
     margin: 0 auto;
@@ -23,11 +33,17 @@
 
 .carousel-wrapper i:last-child {
     right: -23px;
+    &:hover {
+        background-color: rgb(124, 118, 118);
+    }
 }
 
 .carousel-wrapper i:first-child {
     left: -23px;
     display: none;
+    &:hover {
+        background-color: rgb(124, 118, 118);
+    }
 }
 
 .carousel-wrapper .carousel {
