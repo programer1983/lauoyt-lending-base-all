@@ -1,0 +1,129 @@
+.footer {
+    padding: 100px 0;
+}
+
+
+.footer__content {
+    display: flex;
+}
+
+.footer__info {
+    max-width: 700px;
+    padding-right: 80px;
+}
+
+.footer__text, 
+.footer__copyrigh, 
+.footer__disign {
+    margin-bottom: 30px;
+    color: rgba(128, 128, 128, 0.98);
+    font-size: 14px;
+}
+
+.footer__text {
+    line-height: 1.4;
+}
+
+
+.footer__social__list {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer__social__item {}
+
+.footer__social__link {}
+
+.footer__social__icon {
+    width: 20px;
+    height: 20px;
+    color: rgba(128, 128, 128, 0.98);
+    transition: all .5s ease;
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer__events {
+    margin-right: 30px;
+}
+
+.footer__events-item {
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.footer__events-link {}
+
+.footer__rubrics {
+    margin-right: 120px;
+}
+
+.footer__rubrics__title {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer__rubrics__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 20px;
+}
+
+.footer__rubrics-item {
+    position: relative;
+}
+
+.footer__rubrics-link {
+    color: rgba(128, 128, 128, 0.98);
+}
+
+.footer__rubrics-item::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.98);;
+}
+
+.footer__agency {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__agency_title {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer__agency__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 10px;
+}
+
+.footer__agency-item {
+    width: 200px;
+}
+
+.footer__agency-link {
+    color: rgba(128, 128, 128, 0.98);
+    position: relative;
+}
+
+.footer__agency-link::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.98);
+}
