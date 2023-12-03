@@ -33,7 +33,6 @@
     height: 300px;
     width: 600px;
     object-fit: cover;
-
 }
 
 .travels-buy__btn {
@@ -72,3 +71,30 @@
     font-size: 20px;
     color: rgba(128, 128, 128, 0.817);
 }
+
+@media (max-width: 630px){
+    .travels-buy__img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 380px){
+    .travels-buy__btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        background: transparent;
+    }
+
+    .travels-buy__text,
+    .travels-buy__price {
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        color: var(--whiteColor);
+        width: 70%;
+    }
+}
+
+
+
