@@ -125,3 +125,34 @@
     border-radius: 10px;
 }
 
+
+@media (max-width: 1000px){
+    .contacts {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:  520px){
+    .contacts__modal-box {
+        width: 400px;
+    }
+}
+
+@media (max-width:  440px){
+    .contacts__modal-box {
+        width: 350px;
+    }
+}
+
+@media (max-width: 370px){
+    .contacts__modal-box {
+        width: 300px;
+    }
+}
+
+@media (max-width: 390px){
+    .contacts__title {
+        font-size: 35px;
+    }
+}
+
