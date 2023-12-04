@@ -72,3 +72,33 @@
 .carousel img:first-child {
     margin-left: 0;
 }
+
+@media (max-width: 900px){
+    .carousel-wrapper i:last-child {
+        right: -10px;
+    }
+    
+    .carousel-wrapper i:first-child {
+        left: -10px;
+    }
+
+    .carousel img {
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width: 700px){
+    .corousel {
+        padding: 50px 0px;
+    }
+}
+
+@media (max-width: 590px){
+    .corousel__title {
+        font-size: 33px;
+    }
+
+    .carousel img {
+        width: calc(100% / 1);
+    }
+}
