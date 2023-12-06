@@ -1,0 +1,32 @@
+.video {
+    
+
+}
+
+.video__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.video__block {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+}
+
+.video__item__sourshe, 
+.video__item__youtube {
+    max-width: 1300px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+
+@media (max-width: 1000px){
+    .video__block {
+       margin-bottom: 50px;
+    }
+}
