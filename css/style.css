@@ -9,6 +9,7 @@
 @import './carousel.css';
 @import './video.css';
 @import './footer.css';
+@import './questions.css';
 
 :root {
   --whiteColor: #fff;

@@ -68,7 +68,6 @@ function accordion(){
   const contents = document.querySelectorAll('.news__content')
 
   triggers.forEach((trigger, idx) => {
-    
     if (items[0].classList.contains('active')){
       slideDown(contents[0])
     }
@@ -86,9 +85,9 @@ function accordion(){
             item.classList.remove('active')
           }
         })
-      }else{
-        parent.classList.remove('active')
-        slideUp(contents[idx])
+    //   }else{
+    //     parent.classList.remove('active')
+    //     slideUp(contents[idx])
       }
     })
   })
