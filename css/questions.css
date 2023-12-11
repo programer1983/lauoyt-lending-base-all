@@ -8,7 +8,15 @@
     margin-bottom: 50px;
 }
 .questions-accordion {}
-
+.questions-accordion {
+    transform: translateX(-20%);
+    transition: all 2s;
+    opacity: 0;
+}
+.questions-accordion.active {
+    transform: translateX(0);
+    opacity: 1;
+}
 .questions-accordion__item {
     background-color: var(--whiteColor);
     margin-bottom: 10px;
@@ -48,6 +56,18 @@
 }
 .questions-accordion__text.questions-accordion__text--visible {
     opacity: 1;
+}
+
+@media (max-width: 1000px){
+    .questions-accordion {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px){
+    .questions-title {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 480px){
